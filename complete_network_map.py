@@ -5,7 +5,7 @@ import ast
 import streamlit as st
 
 # Define the file path for your CSV
-file_path = r"C:\Users\amanousi\OneDrive - SLB\Aryou\Training\G11 Project\JPT_Network_Map\All_News_Mapping_Split_Companies.csv"
+file_path = "All_News_Mapping_Split_Companies.csv"  # Updated to relative path
 
 # Check if the file exists
 if not os.path.exists(file_path):
